@@ -1,6 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # Dependencies
+/cms/node_modules
+/app/node_modules
 /node_modules
 /.pnp
 .pnp.js
@@ -27,3 +27,6 @@
 
 # Dotenv and similar local-only files
 *.local
+
+#VSCode
+/.vscode
